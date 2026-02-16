@@ -29,7 +29,7 @@ app.use(cors({
             'http://127.0.0.1:5502',
             'http://localhost:3000',
             'http://localhost:8080',
-            'https://chestexpertprime.vercel.app/',
+            'https://chestexpertprime.vercel.app',
             'platform.dasmedhub.com',
             'https://proxy-twjq.onrender.com'
         ];
@@ -168,3 +168,4 @@ app.listen(PORT, '0.0.0.0', () => {
     console.log(`Proxy server running on port ${PORT}`);
     console.log(`HF Space: ${process.env.HF_SPACE_URL}`);
 });
+
