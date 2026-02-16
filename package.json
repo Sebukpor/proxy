@@ -1,0 +1,25 @@
+{
+  "name": "cxr-analysis-proxy",
+  "version": "1.0.0",
+  "description": "Secure proxy for Chest X-ray Analysis API",
+  "main": "proxy-server.js",
+  "scripts": {
+    "start": "node proxy-server.js",
+    "dev": "nodemon proxy-server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.0",
+    "form-data": "^4.0.0",
+    "helmet": "^7.1.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
